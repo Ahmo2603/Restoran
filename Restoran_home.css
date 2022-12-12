@@ -1,0 +1,81 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.kontejner {
+    display: flex;
+    height: 100%;
+}
+
+.lijevi_div {
+    display: flex;
+    flex-direction: column;
+}
+
+.desni_div {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.gornji_dio {
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.donji_dio {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    width: 150px;
+}
+
+.gore {
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sredina {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
+.dno {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kontakt {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.size {
+    font-size: 24px;
+}
+
+.tekst {
+    color: white;
+    width: 150px;
+}
+
+.dugme {
+    width: 100px;
+    border-radius: 15px;
+}
